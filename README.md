@@ -29,7 +29,7 @@
 
 ```
 
-## 🌌 INTERPLANETARY CARGO MANAGEMENT SYSTEM - MISSION BRIEFING
+## INTERPLANETARY CARGO MANAGEMENT SYSTEM - MISSION BRIEFING
 
 **MISSION CLASSIFICATION: SOLAR SYSTEM LOGISTICS OPERATIONS**  
 **SECURITY CLEARANCE: UNCLASSIFIED//FOR OFFICIAL USE ONLY**  
@@ -72,7 +72,7 @@ In the theater of interplanetary operations where humanity maintains forward ope
 
 **Emergency Response Protocols**: Implements automated contingency routing during solar flare events, asteroid proximity alerts, and other threat conditions.
 
-### 📡 EXPANSION OPERATIONS & FUTURE MISSIONS
+### EXPANSION OPERATIONS & FUTURE MISSIONS
 
 As operational theaters expand beyond the Mars sphere of influence, this system shall evolve to support advanced mission profiles including:
 
