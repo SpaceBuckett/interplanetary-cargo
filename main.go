@@ -20,6 +20,8 @@ func main() {
 		panic(err)
 	}
 
+	defer app.DB.Close()
+
 	app.Logger.Println("Welcome to CarGo!")
 
 	r := routes.SetupRoutes(app)
