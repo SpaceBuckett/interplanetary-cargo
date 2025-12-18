@@ -16,5 +16,4 @@ func Open() (*sql.DB, error) {
 
 	fmt.Println("CONNECTED TO DATABASE...")
 	return db, nil
-
 }
