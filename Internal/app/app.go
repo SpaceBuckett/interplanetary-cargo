@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"github/SpaceBuckett/CarGo/Internal/api"
 	"github/SpaceBuckett/CarGo/Internal/store"
+	"github/SpaceBuckett/CarGo/migrations"
 	"log"
 	"net/http"
 	"os"
@@ -20,6 +21,12 @@ func NewApplication() (*Application, error) {
 	pgDB, err := store.Open()
 	if err != nil {
 		return nil, fmt.Errorf("error store.open: %w", err)
+	}
+
+	err = store.MigrateFS(pgDB, migrations.FS, ".") 
+
+	if err != nil{
+		panic(err)
 	}
 
 	logger := log.New(os.Stdout, "", log.Ldate|log.Ltime)

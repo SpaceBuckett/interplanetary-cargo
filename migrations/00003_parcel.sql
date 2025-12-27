@@ -8,9 +8,9 @@ CREATE TABLE IF NOT EXISTS parcel(
     delivery_address TEXT NOT NULL, 
     contact TEXT,   
     special_notes TEXT,  
-    weight NUMBER, 
+    weight NUMERIC, 
     created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,  
-    updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,  
+    updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
 ) 
 -- +goose StatementEnd
 
